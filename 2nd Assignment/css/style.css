@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 10px 0px;
+    color: purple;
+    font-weight: bold;
+}
+
+.form {
+    padding-top: 20px;
+    background: rebeccapurple;
+    margin: auto;
+    width: 75%;
+}
+
+tr {
+    width: 100%;
+    padding: 4px 0px;
+    color: white;
+    /* line-height: 1.2; */
+}
+
+td {
+    padding: 10px 30px;
+}
+
+.form label {
+    text-transform: uppercase;
+}
+
+.gender-cus label,
+.caf label {
+    text-transform: capitalize;
+    padding: 0px 8px;
+}
+
+.qualification-sec td {
+    padding: 5px 5px;
+}
+
+.qualification-sec input {
+    width: 200px;
+}
+
+.form-button {
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.btn {
+    border: 1px solid grey;
+    background: white;
+    padding: 4px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: darkgray;
+}
+
+.tick-logo {
+    margin: 80px auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.tick-logo img {
+    margin: 20px 0px;
+}
+
+.tick-logo a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tick-logo a:hover {
+    color: green;
+}

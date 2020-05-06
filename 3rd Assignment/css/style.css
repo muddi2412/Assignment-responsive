@@ -1,0 +1,337 @@
+                                                                        * {
+                                                                            margin: 0;
+                                                                            padding: 0;
+                                                                            box-sizing: border-box;
+                                                                            font-family: 'Merriweather', serif;
+                                                                            scroll-behavior: smooth;
+                                                                        }
+                                                                        
+                                                                        .icon-algin ul,
+                                                                        .icon-align li {
+                                                                            list-style: none;
+                                                                            display: inline;
+                                                                        }
+                                                                        
+                                                                        .ico {
+                                                                            margin-left: 10px;
+                                                                            margin-right: 10px;
+                                                                        }
+                                                                        
+                                                                        .btn {
+                                                                            margin: 0px auto;
+                                                                            padding: 5px 5px;
+                                                                            border-radius: 0px;
+                                                                            font-size: 12px;
+                                                                        }
+                                                                        
+                                                                        .navbar {
+                                                                            background-color: white!important;
+                                                                        }
+                                                                        
+                                                                        .navbar-brand img {
+                                                                            margin-left: 50px;
+                                                                            padding: 0px 15px;
+                                                                        }
+                                                                        
+                                                                        .navbar-nav a {
+                                                                            margin-left: 4px;
+                                                                            margin-right: 4px;
+                                                                            padding: 5px 10px!important;
+                                                                        }
+                                                                        
+                                                                        .nav-link {
+                                                                            color: black!important;
+                                                                        }
+                                                                        
+                                                                        .nav-link:hover {
+                                                                            background-color: blue;
+                                                                            border-radius: 30px;
+                                                                            -webkit-border-radius: 30px;
+                                                                            -moz-border-radius: 30px;
+                                                                            -ms-border-radius: 30px;
+                                                                            -o-border-radius: 30px;
+                                                                            color: white!important;
+                                                                        }
+                                                                        
+                                                                        .activemenu {
+                                                                            background-color: blue;
+                                                                            border-radius: 30px;
+                                                                            -webkit-border-radius: 30px;
+                                                                            -moz-border-radius: 30px;
+                                                                            -ms-border-radius: 30px;
+                                                                            -o-border-radius: 30px;
+                                                                            color: white!important;
+                                                                        }
+                                                                        
+                                                                        .nav-link span {
+                                                                            color: white!important;
+                                                                        }
+                                                                        
+                                                                        .animation-img {
+                                                                            margin: 0;
+                                                                            padding: 0;
+                                                                            width: 100%;
+                                                                        }
+                                                                        
+                                                                        marquee {
+                                                                            margin: 10px auto;
+                                                                            padding: 5px 5px;
+                                                                        }
+                                                                        
+                                                                        .intro {
+                                                                            background-color: rgba(247, 247, 247, 0.801)
+                                                                        }
+                                                                        
+                                                                        .icon-bold {
+                                                                            font: bold;
+                                                                        }
+                                                                        
+                                                                        .img-counter {
+                                                                            width: 40px;
+                                                                            height: 40px;
+                                                                        }
+                                                                        
+                                                                        .box {
+                                                                            border: 1px solid rgba(0, 0, 0, 0.2);
+                                                                            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+                                                                            border-radius: 2px;
+                                                                            margin: 15px;
+                                                                            padding: 30px;
+                                                                        }
+                                                                        
+                                                                        .box h4 {
+                                                                            margin: 5px 2px;
+                                                                            padding-top: 8px;
+                                                                            font-size: 20px;
+                                                                            font-family: 'Merriweather', serif;
+                                                                            font-weight: bold;
+                                                                            color: blue;
+                                                                        }
+                                                                        
+                                                                        /* .row-mar {
+                                                                            margin-left: 5%;
+                                                                            margin-right: 5%;
+                                                                        } */
+                                                                        
+                                                                        .project-box {
+                                                                            padding: 15px 20px;
+                                                                            margin-top: 10px;
+                                                                            margin-bottom: 10px;
+                                                                            background: lightgrey;
+                                                                        }
+                                                                        
+                                                                        .project-box img {
+                                                                            width: 32px;
+                                                                            height: 32px;
+                                                                            margin-right: 10px;
+                                                                        }
+                                                                        
+                                                                        .line-hr {
+                                                                            position: absolute;
+                                                                            content: "";
+                                                                            border-bottom: 1px solid #eeee !important;
+                                                                            width: 100%;
+                                                                            top: 35px;
+                                                                            z-index: -1;
+                                                                        }
+                                                                        
+                                                                        .border-bottom {
+                                                                            position: relative;
+                                                                            border-bottom: 5px solid green !important;
+                                                                            width: 20%;
+                                                                        }
+                                                                        
+                                                                        .image-gallery {
+                                                                            display: flex;
+                                                                        }
+                                                                        
+                                                                        .image-gallery div {
+                                                                            margin-right: 10px;
+                                                                        }
+                                                                        
+                                                                        .image-gallery img {
+                                                                            margin: 25px 4px;
+                                                                            /* width: 250px; */
+                                                                            height: 180px;
+                                                                        }
+                                                                        
+                                                                        .line-hr1 {
+                                                                            position: absolute;
+                                                                            content: "";
+                                                                            border-bottom: 1px solid lightgray !important;
+                                                                            width: 90%;
+                                                                            top: 26px;
+                                                                        }
+                                                                        
+                                                                        .border-bottom1 {
+                                                                            position: relative;
+                                                                            border-bottom: 5px solid green !important;
+                                                                            width: 20%;
+                                                                            z-index: 1;
+                                                                        }
+                                                                        
+                                                                        .footer-des {
+                                                                            list-style: none;
+                                                                            color: lightgray;
+                                                                        }
+                                                                        
+                                                                        .last p {
+                                                                            color: white;
+                                                                            margin-top: 8px;
+                                                                            margin-left: 50px;
+                                                                        }
+                                                                        
+                                                                        .icon-style {
+                                                                            position: relative;
+                                                                            left: 11px;
+                                                                            top: 1px;
+                                                                        }
+                                                                        
+                                                                        .styled-icons li {
+                                                                            list-style: none;
+                                                                        }
+                                                                        
+                                                                        .styled-icons a {
+                                                                            margin-right: 5px;
+                                                                            background-color: #333333;
+                                                                            color: #eeeeee;
+                                                                            display: block;
+                                                                            font-size: 18px;
+                                                                            height: 36px;
+                                                                            line-height: 36px;
+                                                                            width: 36px;
+                                                                            border-radius: 50%;
+                                                                        }
+                                                                        
+                                                                        .scrollToTop {
+                                                                            background: rgba(0, 0, 0, 0.1);
+                                                                            bottom: 15px;
+                                                                            display: none;
+                                                                            height: 50px;
+                                                                            padding: 2px;
+                                                                            position: fixed;
+                                                                            right: 15px;
+                                                                            text-align: center;
+                                                                            text-decoration: none;
+                                                                            width: 50px;
+                                                                            z-index: 99999;
+                                                                        }
+                                                                        
+                                                                        .fa-angle-up {
+                                                                            font-size: bold;
+                                                                        }
+                                                                        
+                                                                        .pic-center:hover {
+                                                                            display: block;
+                                                                            margin-left: auto;
+                                                                            margin-right: auto;
+                                                                            /* width: 50%; */
+                                                                            height: auto;
+                                                                            width: auto;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width: 1012px) and (min-width:769px) {
+                                                                            .btn {
+                                                                                margin: 2px auto;
+                                                                            }
+                                                                            .offer {
+                                                                                display: flex;
+                                                                                flex-direction: column;
+                                                                                margin: 0;
+                                                                            }
+                                                                           /*  .box {
+                                                                                justify-content: center;
+                                                                                margin: 15px 50%;
+                                                                                width: 230%;
+                                                                            }
+ */                                                                            .project {
+                                                                                display: flex;
+                                                                                flex-direction: column;
+                                                                            }
+                                                                            .project-box {
+                                                                                width: 200%;
+                                                                            }
+                                                                            .image-gallery {
+                                                                                display: flex;
+                                                                                flex-wrap: wrap;
+                                                                                justify-content: space-between;
+                                                                            }
+                                                                            .image-gallery div {
+                                                                                margin: 15px 15px;
+                                                                            }
+                                                                            .image-gallery img:hover {
+                                                                                width: 350px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width: 768px) {
+                                                                            .btn {
+                                                                                margin: 2px auto;
+                                                                            }
+                                                                            .offer {
+                                                                                display: flex;
+                                                                                justify-content: center;
+                                                                            }
+
+                                                                            .mission{
+                                                                                flex-direction: column;
+                                                                            }
+                                                                            /* .project {
+                                                                                display: flex;
+                                                                                flex-direction: column;
+                                                                                margin-bottom: 15px;
+                                                                            } */
+                                                                            .project-box {
+                                                                                width: 300%;
+                                                                            }
+                                                                            .image-gallery {
+                                                                                display: flex;
+                                                                                flex-wrap: wrap;
+                                                                                justify-content: space-between;
+                                                                            }
+                                                                            .image-gallery img {
+                                                                                width: 200px;
+                                                                            }
+                                                                            .image-gallery img:hover {
+                                                                                width: 300px;
+                                                                            }
+                                                                            .count-bar div h1 {
+                                                                                font-size: 1.5rem;
+                                                                            }
+                                                                            .count-bar div p {
+                                                                                font-size: 1rem;
+                                                                                
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width: 512px) {
+
+                                                                            .counter h1 , p {
+                                                                                font-size: 1rem;
+
+                                                                            }
+                                                                            .image-gallery {
+                                                                                display: flex;
+                                                                                /* flex-wrap: wrap; */
+                                                                                justify-content: space-around;
+                                                                            }
+                                                                            .image-gallery img {
+                                                                                margin: 10px auto;
+                                                                            }
+                                                                            .icon-align {
+                                                                                display: flex;
+                                                                                flex-wrap: wrap;
+                                                                                justify-content: space-between;
+                                                                            }
+                                                                            .icon-align li {
+                                                                                margin: 5px auto;
+                                                                            }
+                                                                            .intro-mar {
+                                                                                margin: auto!important;
+                                                                                max-width: 100%;
+                                                                                /* justify-items: center; */
+                                                                            }
+                                                                            .gallery-res {
+                                                                                padding: 10px 5px!important;
+                                                                            }
+                                                                        }
